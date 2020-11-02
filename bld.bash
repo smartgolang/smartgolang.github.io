@@ -1,11 +1,8 @@
-#go fmt GlobalIP_Gen.go
-#-x -v -work
-#test.
-#export LD_LIBRARY_PATH="/storage/home/konstantin/mygo/src/rocksdb"
-#export GOPATH="/storage/home/konstantin/mygo"
-# export GOOGLE_APPLICATION_CREDENTIALS=../topinvestor-app-dev.json
+#!/usr/bin/env bash
+# Copyright 2020 Mobile Data Books, LLC. All rights reserved.
+# Use of this source code is governed by a BSD-style
+# license that can be found in the LICENSE file.
 
-#go get github.com/tecbot/gorocksdb
 VER="smartgolang.github.io_v_1.0:"
 
 git add --all
