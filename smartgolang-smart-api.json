@@ -1,8 +1,8 @@
 {
     "openapi": "3.0.0",
     "info": {
-      "title": "smartAPI",
-      "description": "This is smartAPI",
+      "title": "DCWS",
+      "description": "This is DCWS",
       "version": "1.0.0"
     },
     "servers": [
@@ -13,12 +13,12 @@
     "paths": {
       "/id/{userId}/name/{name}": {
         "get": {
-          "summary": "Returns a user by ID",
+          "summary": "Returns a contract by ID",
           "parameters": [
             {
               "name": "userId",
               "in": "path",
-              "description": "The ID of the user to return",
+              "description": "The Account ID.",
               "required": true,
               "style": "simple",
               "explode": false,
