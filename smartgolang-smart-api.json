@@ -29,7 +29,7 @@
             {
               "name": "name",
               "in": "path",
-              "description": "The Name of the contract",
+              "description": "The Name of the contract - Basic_OV, Basic_OV_FQDN_SAN, Basic_OV_Wildcard_SAN, Basic_EV, Basic_EV_FQDN_SAN",
               "required": true,
               "style": "simple",
               "explode": false,
