@@ -1,2 +1,0 @@
-
-# digiCertApttusWS_OpenAPI
